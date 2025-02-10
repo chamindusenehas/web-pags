@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Hey there...</title>
+</head>
+<body>
+
+
+
+    <canvas id="canvas"></canvas>
+<div class="container">
+    <input type="checkbox" id="signup_toggle">
+    <form class="form">
+        <div class="form_front">
+            <div class="form_details">Login</div>
+            <input placeholder="Username" class="input" type="text" required>
+            <input placeholder="Password" class="input" type="password" required>
+            <button class="btn">Login</button>
+            <span class="switch"><span class="texter"> Don't have an account? </span> <br>
+                <label class="signup_tog" for="signup_toggle">
+                    Sign Up
+                </label>
+            </span>
+        </div>
+        <div class="form_back">
+            <div class="form_details">Sign Up</div>
+            <input placeholder="Firstname" class="input" type="text" required>
+            <input placeholder="Username" class="input" type="text" required>
+            <input placeholder="Password" class="input" type="password" required>
+            <input placeholder="Confirm Password" class="input" type="password" required>
+            <button class="btn">Sign up</button>
+            <span class="switch"><span class="texter"> Already have an account? </span> <br>
+                <label class="signup_tog" for="signup_toggle">
+                    Sign In
+                </label>
+            </span>
+        </div>
+    </form>
+</div>
+
+
+<script src="register.js"></script>
+
+    
+</body>
+</html>
